@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.title span {
+  display: inline-block;
+  font-size: 70px;
+  border: 1px solid aliceblue;
+  padding: 10px 20px;
+  border-radius: 20px; /* Adjust as needed */
+}
+
+.button {
+  text-align: center;
+}
+
+.generateButton {
+  height: 60px;
+  width: 160px;
+  font-size: 30px;
+}
+
+.generateButton:hover {
+  opacity: 0.9;
+}
+
+.itemSection {
+  text-align: center;
+}
+
+.itemSection > div {
+  font-size: 23px;
+  color: red;
+}
+
+.itemSection > p {
+  font-size: 30px;
+}
